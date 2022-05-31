@@ -33,22 +33,4 @@ sult.
 2. Create a separate branch and submit changes to main via a Pull Request.
 3. At least 1 approving review is required before merging.
 ***
-### GIT Commands:
-**Initial setup:**
-```
-git clone https://github.com/SamSaver/Troops.git
-cd Troops
-git checkout -b <branch-name>
-```
-**After code changes:**
-```
-git add .
-git commit -m "commit-message"
-git push origin <branch-name>
-```
-**To fetch latest changes from remote:**
-```
-git checkout <branch-name>
-git fetch origin
-git rebase origin/main
-```
+
